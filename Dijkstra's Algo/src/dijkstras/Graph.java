@@ -10,7 +10,7 @@ public class Graph {
     public Graph() {
         this.verticesInTheGraph = new ArrayList<>();
     }
-    
+
     public List<Vertex> getVerticesInTheGraph() {
         return verticesInTheGraph;
     }
@@ -18,12 +18,17 @@ public class Graph {
     public void setVerticesInTheGraph(List<Vertex> verticesInTheGraph) {
         this.verticesInTheGraph = verticesInTheGraph;
     }
-    
-    public void addVerticesToTheGraph(Vertex newVertex){
+
+    public void addVerticesToTheGraph(Vertex newVertex) {
         this.verticesInTheGraph.add(newVertex);
     }
-    
-    public void findShortestPath(Vertex sourceVertex){
+
+    public void findShortestPath(Vertex sourceVertex) {
         //implement your dijkstra's algorithm here
+        //get the neighbors
+        //for each neighbors, 
+        //calculate the local min distance
+        //and assign its predecessor vertex value
+        
     }
 }
