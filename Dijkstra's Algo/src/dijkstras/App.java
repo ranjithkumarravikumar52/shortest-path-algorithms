@@ -65,7 +65,9 @@ public class App {
         graph1.addVerticesToTheGraph(v5);
         graph1.addVerticesToTheGraph(v6);
         
+        graph1.initGraphForShortestPathAlgorithm(v1);
         graph1.findShortestPath(v1);
+        graph1.printMinDistanceForAllVertices();
         
         
         
