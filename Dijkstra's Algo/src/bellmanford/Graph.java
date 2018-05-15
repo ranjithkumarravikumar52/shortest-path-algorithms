@@ -28,11 +28,19 @@ public class Graph {
                     update(edgeIndex, edgeIndex.getSourceVertex(), edgeIndex.getDestinationNode());
                 }
             }
+            printAllVertices();
         }
     }
 
+    private void printAllVertices() {
+        for (Vertex vertexIndex : this.getVerticesInTheGraph()) {
+            System.out.print(vertexIndex+" ");
+        }
+        System.out.println();
+    }
+
     private void update(Edge edgeIndex, Vertex sourceVertex, Vertex destinationNode) {
-        int calculatedDistance = Integer.min(destinationNode.getDistance(), sourceVertex.getDistance() + edgeIndex.getWeight());
+        double calculatedDistance = Double.min(destinationNode.getDistance(), sourceVertex.getDistance() + edgeIndex.getWeight());
         destinationNode.setDistance(calculatedDistance);
     }
 
@@ -40,7 +48,7 @@ public class Graph {
         sourceVertex.setDistance(0);
         for (Vertex vertexIndex : this.getVerticesInTheGraph()) {
             if (!vertexIndex.getNameOfTheVertex().equals(sourceVertex.getNameOfTheVertex())) {
-                vertexIndex.setDistance(Integer.MAX_VALUE);
+                vertexIndex.setDistance(Double.POSITIVE_INFINITY);
             }
         }
     }

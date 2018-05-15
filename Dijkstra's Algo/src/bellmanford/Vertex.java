@@ -3,11 +3,11 @@ package bellmanford;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Vertex implements Comparable<Vertex> {
+public class Vertex{
     private String nameOfTheVertex;
     private List<Edge> edgeList;
     private List<Vertex> neighborsList;
-    private int distance;
+    private double distance;
 
     public Vertex(String nameOfTheVertex) {
         this.nameOfTheVertex = nameOfTheVertex;
@@ -23,11 +23,11 @@ public class Vertex implements Comparable<Vertex> {
         this.edgeList.add(newEdge);
     }
 
-    public int getDistance() {
+    public double getDistance() {
         return distance;
     }
 
-    public void setDistance(int distance) {
+    public void setDistance(double distance) {
         this.distance = distance;
     }
 
@@ -44,13 +44,8 @@ public class Vertex implements Comparable<Vertex> {
     }
 
     @Override
-    public int compareTo(Vertex otherVertex) {
-        return Integer.compare(this.distance, otherVertex.getDistance());
-    }
-
-    @Override
     public String toString() {
-        return "Vertex{" + "nameOfTheVertex=" + nameOfTheVertex + ", distance=" + distance + '}';
+        return "{" + "Vertex=" + nameOfTheVertex + ", dist=" + distance + '}';
     }
 
 

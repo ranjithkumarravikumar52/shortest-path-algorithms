@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="342fbd3d-bce3-48fd-8b31-f3e798b36a00" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bellmanford/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bellmanford/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bellmanford/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bellmanford/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dijkstra's Algo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shortest-Path-Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bellmanford/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bellmanford/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bellmanford/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bellmanford/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bellmanford/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bellmanford/Vertex.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +20,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bellmanford/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="303">
+              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -35,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/bellmanford/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding>
                 <element signature="e#401#402#0" expanded="true" />
                 <element signature="e#442#443#0" expanded="true" />
@@ -57,8 +52,8 @@
       <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bellmanford/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="684">
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
@@ -75,12 +70,26 @@
       <file leaf-file-name="Vertex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bellmanford/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="741">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,9 +119,9 @@
         <option value="$PROJECT_DIR$/src/dijkstras/Vertex.java" />
         <option value="$PROJECT_DIR$/src/dijkstras/Graph.java" />
         <option value="$PROJECT_DIR$/src/bellmanford/Edge.java" />
-        <option value="$PROJECT_DIR$/src/bellmanford/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/bellmanford/Graph.java" />
         <option value="$PROJECT_DIR$/src/bellmanford/App.java" />
+        <option value="$PROJECT_DIR$/src/bellmanford/Graph.java" />
+        <option value="$PROJECT_DIR$/src/bellmanford/Vertex.java" />
       </list>
     </option>
   </component>
@@ -197,7 +206,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bellmanford.App" />
+      <module name="Shortest-Path-Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bellmanford.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dijkstras.App" />
       <module name="Shortest-Path-Algorithms" />
@@ -250,8 +270,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -267,12 +292,20 @@
       <option name="presentableId" value="Default" />
       <updated>1526322306121</updated>
       <workItem from="1526322307891" duration="7075000" />
-      <workItem from="1526398712182" duration="1677000" />
+      <workItem from="1526398712182" duration="3726000" />
     </task>
+    <task id="LOCAL-00001" summary="implemented bellman-ford brute force">
+      <created>1526400580888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526400580888</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8752000" />
+    <option name="totallyTimeSpent" value="10801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="864" extended-state="6" />
@@ -280,13 +313,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32994923" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32994923" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32868022" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32994923" />
       <window_info id="Capture Tool" order="3" />
@@ -306,7 +340,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="4" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="5" />
@@ -343,12 +376,45 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="implemented bellman-ford brute force" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented bellman-ford brute force" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -462,7 +528,7 @@
     <entry file="file://$PROJECT_DIR$/src/bellmanford/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
             <element signature="e#401#402#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
@@ -482,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bellmanford/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="684">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
@@ -498,20 +564,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bellmanford/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="741">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bellmanford/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="303">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
         </state>
       </provider>
     </entry>
