@@ -33,10 +33,6 @@ public class Vertex implements Comparable<Vertex>{
         this.minimumDistance = minimumDistance;
     }
 
-    public Vertex getPredecessorVertex() {
-        return predecessorVertex;
-    }
-
     public void setPredecessorVertex(Vertex predecessorVertex) {
         this.predecessorVertex = predecessorVertex;
     }
@@ -45,16 +41,8 @@ public class Vertex implements Comparable<Vertex>{
         return nameOfTheVertex;
     }
 
-    public void setNameOfTheVertex(String nameOfTheVertex) {
-        this.nameOfTheVertex = nameOfTheVertex;
-    } 
-
     public List<Vertex> getNeighborsList() {
         return neighborsList;
-    }
-
-    public void setNeighborsList(List<Vertex> neighborsList) {
-        this.neighborsList = neighborsList;
     }
 
     public List<Edge> getEdgeList() {

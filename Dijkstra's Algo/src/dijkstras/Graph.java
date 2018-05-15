@@ -14,7 +14,7 @@ public class Graph {
     public Graph() {
         this.verticesInTheGraph = new ArrayList<>();
         tempVertex = new Vertex("temp");
-        minHeap = new PriorityQueue<Vertex>();
+        minHeap = new PriorityQueue<>();
 
     }
 
@@ -22,16 +22,17 @@ public class Graph {
         return verticesInTheGraph;
     }
 
-    public void setVerticesInTheGraph(List<Vertex> verticesInTheGraph) {
-        this.verticesInTheGraph = verticesInTheGraph;
-    }
-
     public void addVerticesToTheGraph(Vertex newVertex) {
         this.verticesInTheGraph.add(newVertex);
     }
 
+    /**
+     * @param sourceVertex
+     *
+     * initialization phase: Except the source, assign all the other vertices with predecessor values of temporary value
+     * and min distance to infinity
+     */
     public void initGraphForShortestPathAlgorithm(Vertex sourceVertex) {
-        //init phase, except the source, assign all the other vertices with predecessor values of temporary value and min distance to infinity
          minHeap.add(sourceVertex);
         for (Vertex vertexIndex : this.getVerticesInTheGraph()) {
             if (!vertexIndex.getNameOfTheVertex().equals(sourceVertex.getNameOfTheVertex())) {
@@ -41,11 +42,13 @@ public class Graph {
         }
     }
 
+    /**
+     * @param sourceVertex
+     * implementing dijkstra's algorithm here
+     */
     public void findShortestPath(Vertex sourceVertex) {
-        //implement your dijkstra's algorithm here
         if (!minHeap.isEmpty()) {
             calculateEachNeighbor(sourceVertex);
-//            printHeap();
             findShortestPath(minHeap.remove());
         } else {
             return; 
@@ -56,22 +59,19 @@ public class Graph {
         //get the neighbors, for each neighbors:
         for (Vertex neighborsVertexIndex : sourceVertex.getNeighborsList()) {
             int currentDistance = getDistance(sourceVertex, neighborsVertexIndex);
-//            System.out.println("currentDistance = " + currentDistance);
-            if (currentDistance != -1 && currentDistance < neighborsVertexIndex.getMinimumDistance()) {
+            if (currentDistance != -1 && currentDistance < neighborsVertexIndex.getMinimumDistance() && !neighborsVertexIndex.isIsVisited()) {
+                minHeap.remove(neighborsVertexIndex);
                 neighborsVertexIndex.setMinimumDistance(currentDistance);
                 neighborsVertexIndex.setPredecessorVertex(sourceVertex);
-            }
-            if(!neighborsVertexIndex.isIsVisited()){
                 neighborsVertexIndex.setIsVisited(true);
                 minHeap.add(neighborsVertexIndex);
             }
-            
         }
     }
 
     private int getDistance(Vertex sourceVertex, Vertex neighborsVertex) {
         //find the distance from sourceVertex to neighborsVertex
-        //souceVertex has a list of all edges
+        //sourceVertex has a list of all edges
         for (Edge edgeIndex : sourceVertex.getEdgeList()) {
             if (edgeIndex.getDestinationNode().getNameOfTheVertex().equals(neighborsVertex.getNameOfTheVertex())) {
                 return edgeIndex.getWeight();
@@ -90,7 +90,7 @@ public class Graph {
         }
         System.out.println();
     } 
-    
+
     public void printMinDistanceForAllVertices(){
         for(Vertex vertexIndex: this.verticesInTheGraph){
             System.out.println(vertexIndex);
